@@ -23,7 +23,7 @@ public class Main {
             System.out.println("KDV'li tutarı: " + kdvWıthAmount);
             return;
         } else ;
-        double kdvRatio = 0.8;
+        double kdvRatio = 0.08;
         kdvAmount = amount * kdvRatio;
         kdvWıthAmount = amount + kdvAmount;
 
